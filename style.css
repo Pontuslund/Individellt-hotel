@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html, body {
+    height: 100%;
+    margin: 50;
+}
+body {
+    font-family: 'Roboto' , sans-serif;
+    background-image: url('https://content.api.news/v3/images/bin/ded3be00f6965dcfa60d91c42563592d');
+    background-color: #f3f3f3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+}
+.home img{
+
+    width: 300px;
+    height: 200px;
+}
+.home h2, p, a{
+    text-align: center; /* Center text within the container */
+    width: 500px;
+    color: #fff;
+}
+.styled-button {
+    font-weight: bold; 
+    background-color: #005a8d;
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.styled-button:hover {
+    background-color: lightcoral;
+}
+
+.content{
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.content h2, h3{
+    font-weight: 1000;
+    color: #fff;
+    text-decoration-line: underline;
+}
+.content p{
+    width: 500px;
+    color: #fff;
+    font-size: large;
+}
+.content ul{
+    color: #fff;
+  
+}
+.content img {
+    width: 600px;
+    height: 200px;
+}
+.contact{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.contact h3{
+    text-decoration-line: underline;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
